@@ -1,0 +1,149 @@
+*{
+  font-family: sans-serif;
+}
+a:link{
+  text-decoration: none;
+   }
+a:link:hover{
+  text-decoration:underline 
+}
+#appli{
+  background: url(Image/bouton_applications.png);
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  border:none
+  }
+#profil{
+  background: url(Image/bouton.png);
+  height: 35px;
+  width: 35px;
+  background-repeat:no-repeat;
+  border-radius: 20px;
+  border-color: #573c29;
+ border-style:double
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 13px
+}
+header a{
+  color: black;
+  padding: 4px
+  }
+header a:hover{
+  color:#3c4043
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  align-items: center
+  }
+.search{
+  display: flex;
+  margin: 20px auto;
+  width:500px ;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 24px;
+  }
+#searchbar{
+  height: 50px;
+  width: 100%;
+  border: none;
+  line-height: 34px;
+  background-color: transparent;
+}
+#searchbar:focus{
+  height: 50px;
+  width: 100%;
+  border: none;
+  line-height: 34px;
+  background-color: transparent;
+  outline: none;
+}
+
+.search:hover{
+  display: flex;
+  margin: 20px auto;
+  width:500px ;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 24px;  
+  box-shadow: 1px 1px 12px #555;
+}
+#loupe{
+  margin:15px
+}
+.button{
+  display: flex;
+  width:300px;
+  margin-bottom: 15px;
+  justify-content:space-around;
+  }
+.buttons{
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  height: 36px;
+  font-size: 14px;
+  cursor:pointer;
+  border-radius:3px;
+  color:#3c4043
+}
+.buttons:hover{
+  border: 1px solid #a8a8a8;
+  background-color: #f8f9fa;
+  height: 36px;
+  font-size: 14px;
+  cursor:pointer;
+  border-radius: 3px;
+  box-shadow: 0px 1px 0px #a8a8a8;
+  color:#3c4043
+}
+.jugement{
+  border: 1px solid grey;
+  padding: 5px;
+  font-size: 0.9em
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border-top: 1px solid #dadce0;
+  line-height: 40px;
+  align-items: flex-end;
+  margin: -8px;
+  font-size: 15px;
+  flex-wrap: wrap
+}
+footer a{
+  color: #70757a;
+  margin: 0px 10px 0px 10px
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
